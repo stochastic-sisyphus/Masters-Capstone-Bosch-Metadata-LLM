@@ -1,0 +1,162 @@
+[
+    {
+        "question": "How does S3 on Outposts differ from standard Amazon S3, and what are the key considerations for its use in hybrid cloud environments?",
+        "answer": ""
+    },
+    {
+        "question": "Debug the following issue: An S3 on Outposts bucket policy returns an `Access Denied` error for cross-account operations. What might be missing in the policy, and how can it be fixed?",
+        "answer": ""
+    },
+    {
+        "question": "A user is unable to access an S3 on Outposts bucket from a different VPC using PrivateLink. Outline the steps to troubleshoot and resolve the issue.",
+        "answer": ""
+    },
+    {
+        "question": "Describe how to create an S3 on Outposts bucket, add tags, and configure a bucket policy using the AWS CLI.",
+        "answer": ""
+    },
+    {
+        "question": "What limitations exist when using multipart uploads with S3 on Outposts buckets?",
+        "answer": ""
+    },
+    {
+        "question": "A Java application fails to upload an object to an S3 on Outposts bucket due to a `400 Bad Request` error. What common misconfigurations should be checked in the SDK setup?",
+        "answer": ""
+    },
+    {
+        "question": "What are the differences between private and shared endpoints in S3 on Outposts, and how do these choices impact latency?",
+        "answer": ""
+    },
+    {
+        "question": "Walk through the process of configuring strong consistency for S3 on Outposts objects.",
+        "answer": ""
+    },
+    {
+        "question": "Explain how to integrate S3 on Outposts with AWS Identity and Access Management (IAM) for fine-grained access control.",
+        "answer": ""
+    },
+    {
+        "question": "A user reports slow upload speeds to S3 on Outposts over a cross-account Elastic Network Interface. What optimizations can improve performance?",
+        "answer": ""
+    },
+    {
+        "question": "What are the different types of retrieval options available in S3 Glacier, and when should each be used?",
+        "answer": ""
+    },
+    {
+        "question": "A developer's Java SDK script to upload an archive to S3 Glacier fails due to a `Missing Authentication Token` error. What could be the cause, and how can it be resolved?",
+        "answer": ""
+    },
+    {
+        "question": "How can an organization optimize data retrieval costs for large datasets stored in S3 Glacier?",
+        "answer": ""
+    },
+    {
+        "question": "Describe the steps to configure vault notifications for S3 Glacier using the AWS CLI.",
+        "answer": ""
+    },
+    {
+        "question": "What are the prerequisites for locking a vault in S3 Glacier, and how does this feature enforce compliance?",
+        "answer": ""
+    },
+    {
+        "question": "Analyze why an AWS CLI command to delete a vault in S3 Glacier returns an error stating the vault is not empty.",
+        "answer": ""
+    },
+    {
+        "question": "Discuss how to secure data transfers to S3 Glacier in a multi-region AWS setup.",
+        "answer": ""
+    },
+    {
+        "question": "Create a walkthrough to upload, retrieve, and delete an archive in S3 Glacier using Python's Boto3 SDK.",
+        "answer": ""
+    },
+    {
+        "question": "Explain the difference between S3 Glacier Instant Retrieval and S3 Glacier Deep Archive.",
+        "answer": ""
+    },
+    {
+        "question": "A company using S3 Glacier faces delays in job completion for data retrieval requests. What strategies can be implemented to speed up these processes?",
+        "answer": ""
+    },
+    {
+        "question": "How does Amazon S3 handle server-side encryption with KMS keys, and what are the required permissions for using SSE-KMS?",
+        "answer": ""
+    },
+    {
+        "question": "A REST API request to create a bucket using the `CreateBucket` API fails with a `400 Malformed XML` error. Identify possible causes.",
+        "answer": ""
+    },
+    {
+        "question": "A user is experiencing slow access to S3 buckets across regions. Explain how to leverage S3 Transfer Acceleration to address this.",
+        "answer": ""
+    },
+    {
+        "question": "Write a tutorial for using the `ListObjectsV2` API to list objects in an S3 bucket, including paginated results.",
+        "answer": ""
+    },
+    {
+        "question": "What are the differences between the `PutBucketPolicy` and `PutBucketAcl` APIs, and when should each be used?",
+        "answer": ""
+    },
+    {
+        "question": "A `DeleteObject` API call succeeds but leaves a delete marker in a versioning-enabled bucket. Why is this happening?",
+        "answer": ""
+    },
+    {
+        "question": "Discuss how to configure cross-region replication for an S3 bucket using the S3 Control API.",
+        "answer": ""
+    },
+    {
+        "question": "Guide users through the process of using the `SelectObjectContent` API to query CSV data stored in an S3 bucket.",
+        "answer": ""
+    },
+    {
+        "question": "How can presigned URLs be used to provide temporary access to S3 objects, and what are the security implications?",
+        "answer": ""
+    },
+    {
+        "question": "A web application is unable to connect to an S3 bucket due to incorrect CORS settings. Describe the steps to debug and fix the issue.",
+        "answer": ""
+    },
+    {
+        "question": "What are the key features of Amazon S3 Intelligent-Tiering, and how can it help optimize storage costs?",
+        "answer": ""
+    },
+    {
+        "question": "A lifecycle rule to transition objects to S3 Glacier fails to execute. What are common configuration issues?",
+        "answer": ""
+    },
+    {
+        "question": "A user faces issues accessing a public bucket due to an IAM Access Analyzer warning about public access. How should this be addressed?",
+        "answer": ""
+    },
+    {
+        "question": "Walk through setting up a Multi-Region Access Point for an S3 bucket to handle cross-region traffic.",
+        "answer": ""
+    },
+    {
+        "question": "How does S3 Object Lock help meet regulatory compliance, and what are the prerequisites for enabling it?",
+        "answer": ""
+    },
+    {
+        "question": "A script using AWS CLI for batch deleting objects in a bucket fails with an `InvalidAccessKeyId` error. What could cause this?",
+        "answer": ""
+    },
+    {
+        "question": "Explain the impact of enabling S3 Requester Pays on network and billing configurations.",
+        "answer": ""
+    },
+    {
+        "question": "Provide a step-by-step guide to configure S3 Event Notifications to trigger an AWS Lambda function.",
+        "answer": ""
+    },
+    {
+        "question": "What are the different checksum algorithms supported by S3, and how can they be used to ensure data integrity?",
+        "answer": ""
+    },
+    {
+        "question": "A user reports intermittent access issues to S3 objects in a private VPC endpoint. How can this be resolved?",
+        "answer": ""
+    }
+]
